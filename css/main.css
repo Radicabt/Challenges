@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.9375rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+i {
+  fill: white;
+}
+
+nav {
+  width: 100%;
+  padding-top: 0.9375rem;
+  justify-content: space-between;
+  margin-right: -30px;
+}
+nav .logo {
+  padding-left: 1.875rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline;
+  margin-right: 1.875rem;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  nav ul li {
+    display: none;
+  }
+}
+
+.icon {
+  display: none;
+}
+.icon a {
+  color: white;
+}
+@media (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image-01.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-wrapper .header-inner {
+  width: 35%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .header-wrapper .header-inner {
+    width: 80%;
+  }
+}
+.header-wrapper .header-inner h1 {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 20px;
+}
+.header-wrapper .header-inner p {
+  padding-top: 30px;
+}
+.header-wrapper .header-inner .btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px;
+  width: 40%;
+  margin-top: 1.875rem;
+}
+@media (max-width: 768px) {
+  .header-wrapper .header-inner .btn {
+    width: 80%;
+  }
+}
+.header-wrapper .header-inner .btn:hover {
+  outline: 1px solid #fff;
+}/*# sourceMappingURL=main.css.map */
