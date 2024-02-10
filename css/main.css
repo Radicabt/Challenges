@@ -190,4 +190,71 @@ header {
     height: 200px;
     margin-top: 1.875rem;
   }
+}
+
+.cards-wrapper {
+  background-color: #302d2d;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3.75rem;
+}
+@media (max-width: 768px) {
+  .cards-wrapper {
+    margin-top: 5.625rem;
+  }
+}
+.cards-wrapper p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.cards-wrapper .title {
+  text-align: center;
+  margin-top: 3.75rem;
+  padding-bottom: 1.875rem;
+  line-height: 3;
+}
+@media (max-width: 768px) {
+  .cards-wrapper .title {
+    width: 80%;
+    line-height: 1.5;
+  }
+}
+.cards-wrapper hr {
+  width: 5%;
+}
+@media (max-width: 768px) {
+  .cards-wrapper hr {
+    width: 15%;
+    margin-top: 3.75rem;
+  }
+}
+.cards-wrapper .cards {
+  width: 60%;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .cards-wrapper .cards {
+    width: 70%;
+  }
+}
+.cards-wrapper .card {
+  text-align: center;
+  display: flex;
+  flex-basis: 33.333%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem;
+}
+@media (max-width: 768px) {
+  .cards-wrapper .card {
+    flex-basis: 100%;
+  }
+}
+.cards-wrapper .card i {
+  font-size: 30px;
+  margin-bottom: 1.875rem;
 }/*# sourceMappingURL=main.css.map */
