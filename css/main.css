@@ -51,7 +51,6 @@ nav {
   width: 100%;
   padding-top: 0.9375rem;
   justify-content: space-between;
-  margin-right: -30px;
 }
 nav .logo {
   padding-left: 1.875rem;
@@ -137,4 +136,58 @@ header {
 }
 .header-wrapper .header-inner .btn:hover {
   outline: 1px solid #fff;
+}
+
+.section-one-wrapper {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #FFF;
+}
+@media (max-width: 768px) {
+  .section-one-wrapper {
+    margin-top: 60px;
+  }
+}
+
+.section-one-inner {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .section-one-inner {
+    width: 80%;
+    flex-direction: column;
+  }
+}
+.section-one-inner .section-one-content {
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  padding-right: 7.5rem;
+}
+@media (max-width: 768px) {
+  .section-one-inner .section-one-content {
+    padding-right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+}
+.section-one-inner img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .section-one-inner img {
+    width: 200px;
+    height: 200px;
+    margin-top: 1.875rem;
+  }
 }/*# sourceMappingURL=main.css.map */

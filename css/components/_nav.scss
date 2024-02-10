@@ -6,8 +6,10 @@ nav {
   width: 100%;
   padding-top: math.div(var.$gutter-base, 2);
   justify-content: space-between;
-  margin-right: -30px;
-  .logo{padding-left: var.$gutter-base;}
+  
+  .logo {
+    padding-left: var.$gutter-base;
+  }
   ul {
     li {
       list-style: none;
