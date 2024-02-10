@@ -97,6 +97,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .header-wrapper .header-inner {
   width: 35%;
@@ -257,4 +258,37 @@ header {
 .cards-wrapper .card i {
   font-size: 30px;
   margin-bottom: 1.875rem;
+}
+
+.subscribe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+.subscribe input {
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-bottom: 1.875rem;
+}
+@media (max-width: 768px) {
+  .subscribe input {
+    width: 80%;
+  }
+}
+.subscribe input:focus {
+  outline: 1px solid black;
+}
+.subscribe button {
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.subscribe button:hover {
+  background-color: #0056b3;
 }/*# sourceMappingURL=main.css.map */
