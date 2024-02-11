@@ -7,7 +7,7 @@
   align-items: center;
   margin-top: var.$gutter-base * 2;
   margin-bottom: var.$gutter-base * 2;
-  input {
+input {
     width: 25%;
     padding: 10px;
     border-radius: 5px;
@@ -26,6 +26,7 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
+    width: 120px;
 
     &:hover {
       background-color: var.$background-color-hover;

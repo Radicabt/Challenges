@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as var;
+@use "sass:math";
+@use "../abstracts/mixins" as mix;
+footer {
+  background-color: var.$background-color-primary;
+  color: var.$text-color-primary;
+  padding-top: var.$gutter-base;
+  padding-bottom: var.$gutter-base;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .social-media-icons {
+  
+    .icon-link {
+      margin-right: math.div(var.$gutter-base, 2);
+      
+    }
+  }
+}

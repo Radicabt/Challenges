@@ -12,7 +12,7 @@
   justify-content: center;
   padding-bottom: var.$gutter-base * 2;
   @include mix.mobile-styles {
-    margin-top: var.$gutter-base * 3;
+    margin-top: var.$gutter-base * 4;
   }
   p {
     color: rgba(255, 255, 255, 0.5);
