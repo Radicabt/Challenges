@@ -1,0 +1,123 @@
+* {
+  text-align: center;
+}
+body {
+  margin: 0 !important;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+.landing-section img {
+  width: 50%;
+}
+h1 {
+  text-transform: capitalize;
+  font-size: 42pt;
+}
+.button {
+  background-color: #45496a;
+  color: white;
+  width: 120px;
+  height: 50px;
+  border: 0;
+  border-radius: 25px;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.card-image {
+  width: 25px;
+  margin-top: 20px;
+}
+.card {
+  background-color: #7d8bae;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.card.second {
+  background-color: #f1b2b2;
+  color: #000;
+}
+
+.paragraph-on-card {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16pt;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.cards-block {
+  margin-top: 150px;
+}
+
+.welcome-message-wrapper {
+  width: 100%;
+  height: 240px;
+  background-color: #45496a;
+  padding-top: 80px;
+}
+.message {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  border-left: solid 5px #f1b2b2;
+  border-right: dotted 5px #f1b2b2;
+}
+.message p {
+  margin-left: 0 auto;
+  color: white;
+}
+.message h3 {
+  color: white;
+}
+.form-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.subscribe {
+  border: dashed 5px #7d8bae;
+  height: 300px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.subscribe h2 {
+  text-align: left;
+  color: #7d8bae;
+  margin-top: 70px;
+}
+
+.subscribe p {
+  text-align: justify;
+  font-size: 14pt;
+  padding-right: 400px;
+}
+#email {
+  width: 300px;
+  height: 50px;
+  border-color: #7d8bae;
+  border-style: solid;
+  border-radius: 25px;
+}
+input::placeholder {
+  text-align: left;
+  padding-left: 20px;
+}
+footer {
+  height: 150px;
+  padding-top: 75px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
