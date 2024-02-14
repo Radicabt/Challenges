@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-white {
+  color: #fff;
+  font-size: 15px;
+}
+.d-flex {
+  display: flex;
+}
+.txt-center {
+  text-align: center;
+}
+/* -------------------- Header Styles ------------------ */
+header {
+  background-color: #333;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  padding-right: 30px;
+}
+.icon {
+  display: none;
+}
+/* -------------------- Banner Styles ------------------ */
+.banner {
+  background-image: url(images/image-01.jpg);
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-position: top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+.banner-paragraph {
+  font-size: 20px;
+}
+/* -------------------- Our Journey Section Styles ------------------ */
+.section-journey-wrapper {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.section-journey-img {
+  width: 100%;
+  height: 40vh;
+  box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.4);
+}
+.section-journey-txt {
+  width: 30%;
+  margin-left: 50px;
+  line-height: 30px;
+}
+/* -------------------- Our Services Section Styles ------------------ */
+.section-services-card p {
+  color: beige;
+}
+
+.section-services-card-wrapper {
+  background-color: #632323;
+  padding-top: 50px;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+}
+.section-services-card {
+  width: 400px;
+  height: 30vh;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  margin-right: 30px;
+  margin-top: 0;
+}
+.section-services-h {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #632323;
+  font-size: 25px;
+}
+
+button {
+  padding: 20px;
+  width: 150px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+button:hover {
+  background-color: #fff;
+  color: #632323;
+}
+/* -------------------- Our Instuctors Styles ------------------ */
+.section-instructors-h {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  background-color: #f4f4f4;
+}
+.section-instructors-card-wrapper {
+  background-color: #f4f4f4;
+  align-items: center;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+.section-instructors-img {
+  width: 400px;
+  height: 30vh;
+}
+figure {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+figcaption {
+  width: 400px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 30px;
+}
+figcaption h2 {
+  padding-bottom: 10px;
+}
+/* -------------------- Pricing Styles ------------------ */
+.section-pricing-h {
+  margin: 50px;
+}
+.section-pricing-card-wrapper {
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.section-pricing-card {
+  width: 400px;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f4f4f4;
+  border-radius: 10px;
+  margin: 30px;
+  text-align: center;
+
+  line-height: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  cursor: pointer;
+}
+.section-pricing-card:hover {
+  transform: translate(0, -10px);
+}
+span {
+  border-bottom: 1px solid lightgrey;
+  width: 300px;
+}
+/* -------------------- Form Styles ------------------ */
+.form-wrapper {
+  background-color: #f4f4f4;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-heading {
+  padding: 50px;
+}
+.form {
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+input {
+  height: 50px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 5px;
+}
+textarea {
+  height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 5px;
+}
+.submit-button {
+  background-color: #5cb85c;
+  font-size: large;
+}
+::placeholder {
+  font-size: large;
+}
+input:focus {
+  outline: 2px solid black;
+}
+textarea:focus {
+  outline: 2px solid black;
+}
+.submit-button:hover {
+  background-color: #449d44;
+}
+/* -------------------- Footer Styles ------------------ */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+}
+/* -------------------- For Mobile Screens ------------------ */
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .icon {
+    display: block;
+    fill: #fff;
+  }
+  .banner {
+    text-align: center;
+  }
+  .section-journey-wrapper {
+    flex-direction: column;
+    width: 100%;
+    font-size: large;
+  }
+  .section-journey-h {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+  }
+  .section-journey-txt {
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .section-services-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .section-services-card {
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 40px;
+    line-height: 30px;
+    margin-bottom: 100px;
+  }
+  .section-services-h {
+    padding-bottom: 10px;
+  }
+  .section-instructors-card-wrapper {
+    flex-direction: column;
+  }
+  .section-pricing-card-wrapper {
+    flex-direction: column;
+  }
+}
