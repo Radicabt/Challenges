@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.grid-container {
+  width: 75%;
+  flex-wrap: wrap;
+  @include mix.tablet-styles {
+    width: 100%;
+    margin-top: var.$gutter-base * 3;
+  }
+  @include mix.mobile-styles {
+    width: 100%;
+    margin-top: var.$gutter-base * 3;
+  }
+}
+.grid-items-wrapper {
+  flex-basis: 33.33%;
+  position: relative;
+  &:hover .overlay {
+    opacity: 1;
+  }
+  @include mix.tablet-styles {
+    flex-basis: 50%;
+    margin: auto;
+  }
+  @include mix.mobile-styles {
+    flex-basis: 100%;
+    margin: auto;
+    img {
+      min-width: 100%;
+    }
+  }
+}

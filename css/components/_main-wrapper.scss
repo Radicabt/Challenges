@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+.main-wrapper {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  @include mix.tablet-styles {
+    flex-direction: column;
+    justify-content: space-around;
+    @include mix.mobile-styles
+  }
+}

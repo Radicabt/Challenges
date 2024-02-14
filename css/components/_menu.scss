@@ -1,0 +1,78 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+nav {
+  width: 25%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  position: fixed;
+  font-size: var.$font-size-base;
+  padding-left: var.$gutter-base * 2;
+  padding-right: var.$gutter-base;
+  background-color: var.$background-color-base;
+
+  li {
+    line-height: var.$line-height-base;
+  
+  }
+
+  .icon {
+    display: none;
+    border: 1px solid var.$text-color-base;
+    color: var.$text-color-base;
+    padding: math.div(var.$gutter-base, 6);
+    width: var.$gutter-base * 1.5;
+    text-align: center;
+    margin: var.$gutter-base;
+
+    @include mix.tablet-styles {
+      display: block;
+      margin-right: 5px;
+    }
+
+    @include mix.mobile-styles {
+      display: block;
+      margin-right: 5px;
+    }
+  }
+  @include mix.tablet-styles {
+    height: auto;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: var.$background-color-base;
+    padding-left: math.div(var.$gutter-base, 2);
+    @include mix.mobile-styles {
+      height: auto;
+      width: 100%;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      z-index: 1;
+      background-color: var.$background-color-base;
+      padding-left: math.div(var.$gutter-base, 2);
+    }
+
+    ul {
+      @include mix.tablet-styles {
+        display: none;
+        @include mix.mobile-styles {
+          display: none;
+        }
+      }
+    }
+    footer {
+      @include mix.tablet-styles {
+        display: none;
+        @include mix.mobile-styles {
+          display: none;
+        }
+      }
+    }
+  }
+}

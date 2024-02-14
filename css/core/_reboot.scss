@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-left: -(var.$gutter-base);
+  list-style: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: var.$text-color-base;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
