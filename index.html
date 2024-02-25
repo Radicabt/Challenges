@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Document</title>
@@ -15,22 +14,339 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
-
-    <!-- custom font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fashion</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="pt-5 mb-5 d-flex flex-column align-items-center">
+      <h1 class="text-center text-white fw-bold">Welcome To Fashion Style</h1>
+      <p class="text-white text-center h5">
+        Explore the latest trends and find your perfect style
+      </p>
+      <button type="button" class="btn btn-info text-white mb-5 mt-3">
+        Shop Now
+      </button>
+    </header>
+    <div class="container mb-5" id="About">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <img src="images/image-02.jpg" class="img-fluid mb-3" alt="Image" />
+        </div>
+        <div class="col-lg-6" >
+          <h2 class="fw-bold">About Us</h2>
+          <p>
+            Welcome to
+            <a href="#" class="text-primary fw-bold">Fashion Style</a>, where we
+            believe that fashion is a way of life. We strive to bring you the
+            latest trends, high-quality clothing, and a unique style that fits
+            your personallity. Our team is dedicated to curating collections
+            that make you feel confident and beautiful.<br />
+            Join us on this stylish journey and let's create your perfect
+            wardrode together!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-body-secondary pb-4" id="Pricing">
+      <div class="container">
+        <h2 class="text-center py-5">Our Pricing</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/image-01.jpg" class="img-fluid mb-3" alt="Image" />
+          </div>
+          <div class="col-md-8">
+            <h3 class="fw-bold">Basic</h3>
+            <p>
+              Perfect for individuals just starting out. Get access to our basic
+              collection and find your style.
+            </p>
+            <button type="button" class="btn btn-primary px-4 mb-5">
+              Sign Up - $19/mo
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/image-01.jpg" class="img-fluid mb-3" alt="Image" />
+          </div>
+          <div class="col-md-8">
+            <h3 class="fw-bold">Standard</h3>
+            <p>
+              Great for fashion enthusiasts. Enjoy access to premium collections
+              and style guides.
+            </p>
+            <button type="button" class="btn btn-primary px-4 mb-5">
+              Sign Up - $25/mo
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/image-02.jpg" class="img-fluid mb-3" alt="Image" />
+          </div>
+          <div class="col-md-8">
+            <h3 class="fw-bold">Premium</h3>
+            <p>
+              For the true fashionistas. Get everything from the Standard plan,
+              plus exclusive perks and early access to new collections.
+            </p>
+            <button type="button" class="btn btn-primary px-4 mb-5">
+              Sign Up - $30/mo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carousel-1" class="carousel slide bg-secondary">
+      <div class="carousel-inner">
+        <div class="carousel-item active custom-height-40">
+          <div
+            class="carousel-caption text-black w-100 position-absolute top-50 start-50 translate-middle"
+          >
+            <h3 class="fs-2">What Our Clients Say</h3>
+            <img
+              src="images/image-04.jpg"
+              alt="img"
+              class="rounded-circle custom-size m-3"
+            />
+            <p>
+              "Ut enim ad minim veniam. quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat."<br />
+              -Jane Doe
+              <span class="fst-italic mt-0"
+                >Marketing Head, Another Company</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item custom-height-40">
+          <div
+            class="carousel-caption text-black w-100 position-absolute top-50 start-50 translate-middle"
+          >
+            <h3 class="fs-2">What Our Clients Say</h3>
+            <img
+              src="images/image-05.jpg"
+              alt="img"
+              class="rounded-circle custom-size m-3"
+            />
+            <p>
+              "Duis aute irure dolor in reprehenderitin voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur."<br />
+              -Alex Johnson
+              <span class="fst-italic mt-0">
+                Product Manager, Yet Another Company</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item custom-height-40">
+          <div
+            class="carousel-caption text-black w-100 position-absolute top-50 start-50 translate-middle"
+          >
+            <h3 class="fs-2">What Our Clients Say</h3>
+            <img
+              src="images/image-03.jpg"
+              alt="img"
+              class="rounded-circle custom-size m-3"
+            />
+            <p>
+              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed do
+              euismod tempor incididiunt ut labore et dolore magna aliqua."<br />
+              -John Doe <span class="fst-italic mt-0">CEO Company Name </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel-1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container mt-5" id="Services">
+      <h1 class="text-uppercase text-center">Services</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet.</p>
+      <hr class="custom-hr mb-5" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body p-3">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card text-center border-0 mb-4 py-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">LOREM,IPSUM</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asumenda nam eos quam cumgue perfernidis, nobis quia
+                  temporibus magni totam ullam, error ex arhitecto et similique
+                  velit explicabo reiciendis inventore neque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-body-secondary pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="mx-5 text-center">Get in Touch</h3>
+          <form class="mx-5">
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="Name" />
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="Email" />
+            </div>
+            <div class="form-group">
+              <label for="textarea">Message</label>
+              <textarea
+                rows="4"
+                cols="7"
+                class="form-control"
+                id="textarea"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary my-3 px-3">
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center text-center" id="Contact">
+          <div class="footer">
+            <h3 class="mb-3">Contact Details</h3>
+            <p>
+              <span class="fw-bold">Email:</span>info@fashionstyle.com <br />
+              <span class="fw-bold">Phone:</span>+ 1 (234) 567 890
+            </p>
+            <div>
+              Follow us on social media
+              <div class="d-flex justify-content-center pb-5">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x mx-1 text-black"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-2x mx-1 text-black"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram fa-2x mx-1 text-black"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-      <!-- Latest Compiled Bootstrap 5.3.3 JavaScript -->
-      <script
+    <!-- Latest Font-Awesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <!-- Latest Compiled Bootstrap 5.3.3 JavaScript -->
+    <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
@@ -38,6 +354,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
