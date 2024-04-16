@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateImage() {
     imageDisplay.src = images[currentIndex];
+    previousBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === images.length - 1;
   }
   previousBtn.addEventListener("click", function () {
     currentIndex--;
