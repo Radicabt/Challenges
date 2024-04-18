@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     previousBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex === images.length - 1;
   }
+
   previousBtn.addEventListener("click", function () {
     currentIndex--;
     if (currentIndex < 0) {
@@ -33,4 +34,27 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   updateImage();
+
+  document.addEventListener("keydown", function(event) {
+    if(event.key === "ArrowRight" && nextBtn.disabled) {
+      return;
+    }
+    if(event.key === "ArrowLeft" && previousBtn.disabled) {
+      return;
+    }
+    if (event.key === "ArrowLeft") {
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+      }
+      updateImage();
+    } else if (event.key === "ArrowRight") {
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+      updateImage();
+    }
+  });
 });
+
