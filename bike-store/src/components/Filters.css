@@ -1,0 +1,31 @@
+.filters .filter-category li {
+  margin-bottom: 10px;
+}
+
+.filters .filter-category button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filters .filter-category .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color:white;
+}
+
+.filters .filter-category button:hover,
+.filters .filter-category button:active {
+ 
+  color:rgb(254, 192, 2)!important;
+}
+
+.filters .filter-category .badge:hover,
+.filters .filter-category .badge:active {
+  background-color: rgb(254, 192, 2) !important;
+  color: #333;
+}
