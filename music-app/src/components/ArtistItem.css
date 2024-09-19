@@ -1,0 +1,18 @@
+.artist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .artist-cover {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .artist-name {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

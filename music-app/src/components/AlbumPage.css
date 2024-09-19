@@ -1,0 +1,29 @@
+.album-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+}
+
+.album-page img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.album-page h2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.album-page p {
+  text-align: center;
+  font-size: larger;
+  color: black;
+  margin: 5px 0;
+}
+
+.album-info {
+  color: gray;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  padding: 0; 
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; 
+}
+
+.logo {
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 100;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/raw/Girls-Listen-Music_0.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 30%; 
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto; 
+  border-bottom: 10px solid rgb(102, 250, 237);
+}

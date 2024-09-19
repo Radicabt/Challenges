@@ -1,0 +1,30 @@
+.artists-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(211, 211, 211);
+}
+
+.artist-card {
+  position: relative;
+  max-width:400px;
+  width: 100%;
+}
+
+.artist-card img {
+  width: 100%;
+  height: auto;
+}
+
+.artist-card h2 {
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  background-color: #009AD0;
+  color: white;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 1rem;
+}
