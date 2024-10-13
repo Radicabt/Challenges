@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  
+.heart-icon-navbar {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+  }
+  

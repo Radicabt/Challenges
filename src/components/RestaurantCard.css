@@ -1,0 +1,56 @@
+.restaurant-card {
+    position: relative;
+    width: 250px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .restaurant-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .restaurant-info {
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .restaurant-type {
+    color: red;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .restaurant-rating {
+    margin: 5px 0;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    cursor: pointer;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8); 
+    transition: color 0.3s, background-color 0.3s;
+    background-color: transparent;
+  }
+  
+  .heart-icon.favorited {
+    color: red; 
+  }
+  
+  .heart-icon i {
+    font-size: 24px; 
+  }
+  

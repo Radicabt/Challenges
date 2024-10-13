@@ -1,0 +1,27 @@
+.restaurant-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .restaurant-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .reviews h3 {
+    margin-bottom: 10px;
+  }
+  
+  .reviews div {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
